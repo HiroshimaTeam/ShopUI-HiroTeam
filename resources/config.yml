@@ -54,22 +54,3 @@ shop:
         buy: 5
         sell: 2
         quantity: 32
-
-  tools:
-    category_name: 'Equipement'
-    image: 'https://static.wikia.nocookie.net/minecraft/images/f/fe/GrassNew.png/revision/latest?cb=20190903234415'
-    items:
-      -
-        name: 'Terre'
-        idMeta: '3:1'
-        buy: 5
-        sell: 2
-        quantity: 32
-        image: ''
-      -
-        name: 'Pierre'
-        idMeta: '97:0'
-        buy: 5
-        sell: 2
-        quantity: 32
-        image: ''
