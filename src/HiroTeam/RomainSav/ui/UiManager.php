@@ -13,8 +13,8 @@
 
 namespace HiroTeam\RomainSav\ui;
 
-use hiroteam\romainsav\forms\CustomForm;
-use hiroteam\romainsav\forms\SimpleForm;
+use HiroTeam\RomainSav\forms\CustomForm;
+use HiroTeam\RomainSav\forms\SimpleForm;
 use HiroTeam\RomainSav\ShopUI;
 use pocketmine\item\Item;
 use pocketmine\Player;
