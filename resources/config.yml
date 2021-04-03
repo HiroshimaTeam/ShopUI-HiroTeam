@@ -1,0 +1,75 @@
+#ShopUI-HiroTeam plugin by RomainSav | Plugin de ShopUI-HiroTeam par RomainSav
+#██╗░░██╗██╗██████╗░░█████╗░████████╗███████╗░█████╗░███╗░░░███╗
+#██║░░██║██║██╔══██╗██╔══██╗╚══██╔══╝██╔════╝██╔══██╗████╗░████║
+#███████║██║██████╔╝██║░░██║░░░██║░░░█████╗░░███████║██╔████╔██║
+#██╔══██║██║██╔══██╗██║░░██║░░░██║░░░██╔══╝░░██╔══██║██║╚██╔╝██║
+#██║░░██║██║██║░░██║╚█████╔╝░░░██║░░░███████╗██║░░██║██║░╚═╝░██║
+#╚═╝░░╚═╝╚═╝╚═╝░░╚═╝░╚════╝░░░░╚═╝░░░╚══════╝╚═╝░░╚═╝╚═╝░░░░░╚═╝
+#description:
+#FRA: Ce plugin vous permet d'ajouter une boutique personnalisable sur votre serveur !
+#ENG: This plugin allows you to add a customizable store on your server !
+
+main-title: 'ShopUI'
+
+not-enought-money: "§cVous n'avez pas assez d'argent !"
+no-place-in-inventory: "§cVous n'avez pas de place dans votre inventaire"
+not-enought-items: "§cVous n'avez pas assez d'items dans votre inventaire"
+
+buyMessage: 'Vous avez bien acheté {item} pour {price}$ !'
+sellMessage: 'Vous avez bien vendu {item} pour {price}$ !'
+
+shop:
+  blocks:
+    category_name: 'Blocks'
+    image: 'https://static.wikia.nocookie.net/minecraft/images/f/fe/GrassNew.png/revision/latest?cb=20190903234415'
+    items:
+      -
+        name: 'Terre'
+        idMeta: '3:1'
+        buy: 5
+        quantity: 32
+      -
+        name: 'Pierre'
+        idMeta: '97:0'
+        sell: 2
+        quantity: 32
+      -
+        name: 'Pierre'
+        idMeta: '97:0'
+        buy: 5
+        sell: 2
+        quantity: 32
+  items:
+    category_name: 'Items'
+    image: 'https://static.wikia.nocookie.net/minecraft/images/f/fe/GrassNew.png/revision/latest?cb=20190903234415'
+    items:
+      - name: 'Terre'
+        idMeta: '3:1'
+        buy: 5
+        sell: 2
+        quantity: 32
+      -
+        name: 'Pierre'
+        idMeta: '97:0'
+        buy: 5
+        sell: 2
+        quantity: 32
+
+  tools:
+    category_name: 'Equipement'
+    image: 'https://static.wikia.nocookie.net/minecraft/images/f/fe/GrassNew.png/revision/latest?cb=20190903234415'
+    items:
+      -
+        name: 'Terre'
+        idMeta: '3:1'
+        buy: 5
+        sell: 2
+        quantity: 32
+        image: ''
+      -
+        name: 'Pierre'
+        idMeta: '97:0'
+        buy: 5
+        sell: 2
+        quantity: 32
+        image: ''
