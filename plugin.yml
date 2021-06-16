@@ -2,4 +2,6 @@ name: ShopUI
 author: RomainSav
 version: 1.0.0
 api: 3.0.0
+extensions:
+  Core: '>=7.4'
 main: HiroTeam\RomainSav\ShopUI
